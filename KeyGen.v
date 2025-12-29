@@ -40,8 +40,8 @@ module KeyGen (
 
     // --- [NEW] Final Result: t1 and t0 (After Power2Round) ---
     output wire          o_p2r_valid,
-    output wire [23:0]   o_t1_data,
-    output wire [23:0]   o_t0_data,
+    output wire [9:0]   o_t1_data,
+    output wire [12:0]   o_t0_data,
     output reg  [7:0]    o_p2r_idx
 );
 
